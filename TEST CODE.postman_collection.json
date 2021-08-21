@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "b89c9c31-f39d-4ea2-be45-bd2c2d041b37",
+		"name": "TEST CODE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "update registration",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/registration_update?registration_no=1015784074&name=swapnil&age=44&dob=1992-03-30&profession=employee&locality=pune&no_of_guests=2&address=cxvxvxvxvxvxvcfdgdfgdgdfgdgdfgdfgdfgdgdgdfgdfgdfgdfg",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"registration_update"
+					],
+					"query": [
+						{
+							"key": "registration_no",
+							"value": "1015784074"
+						},
+						{
+							"key": "name",
+							"value": "swapnil"
+						},
+						{
+							"key": "age",
+							"value": "44"
+						},
+						{
+							"key": "dob",
+							"value": "1992-03-30"
+						},
+						{
+							"key": "profession",
+							"value": "employee"
+						},
+						{
+							"key": "locality",
+							"value": "pune"
+						},
+						{
+							"key": "no_of_guests",
+							"value": "2"
+						},
+						{
+							"key": "address",
+							"value": "cxvxvxvxvxvxvcfdgdfgdgdfgdgdfgdfgdfgdgdgdfgdfgdfgdfg"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "dsfsfsfd",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "44",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "1992-03-30",
+							"type": "text"
+						},
+						{
+							"key": "profession",
+							"value": "employee",
+							"type": "text"
+						},
+						{
+							"key": "locality",
+							"value": "pune",
+							"type": "text"
+						},
+						{
+							"key": "no_of_guests",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "cxvxvxvxvxvxvcfdgdfgdgdfgdgdfgdfgdfgdgdgdfgdfgdfgdfg",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "registration_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/registration_list",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"registration_list"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,3 +1,9 @@
+required :
+
+php verison 7.4.9
+install composer
+
+
 step1) git clone https://github.com/sonukumar1992/test.git
 
 step2) run command composer update

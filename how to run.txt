@@ -1,0 +1,15 @@
+step1) git clone https://github.com/sonukumar1992/test.git
+
+step2) run command composer update
+
+step3) rename .env.example to .env
+
+step4) set your creadentials in .env file
+
+step5) import test.sql file on your database 
+
+step6) run command php artisan serve
+
+step7) import TEST CODE.postman_collection file in your post man
+
+step8) test api
